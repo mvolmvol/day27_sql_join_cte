@@ -61,7 +61,18 @@ When writing SQL queries, the logical order of operations is as follows:
 4. **GROUP BY**  
 5. **HAVING**  
 6. **ORDER BY**  
-7. **LIMIT**  
+7. **LIMIT**
+
+For debugging purposes it is important to mention that the order of execution is different:
+
+- Select
+- From
+- Join
+- Where
+- Group
+- Having
+- Order by
+- Limit
 
 ---
 
